@@ -1,0 +1,73 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw", 
+    {
+      "@language": "en"
+    }
+  ], 
+  "dc:license": [
+    {
+      "@id": ""
+    }
+  ], 
+  "dc:modified": {
+    "@type": "xsd:date", 
+    "@value": "2017-10-20"
+  }, 
+  "dc:publisher": {
+    "schema:name": "", 
+    "schema:url": {
+      "@id": ""
+    }
+  }, 
+  "dc:title": "Dengue-BR", 
+  "dcat:keyword": [
+    ""
+  ], 
+  "dialect": {
+    "commentPrefix": "", 
+    "delimiter": "", 
+    "doubleQuote": true, 
+    "encoding": "", 
+    "header": true, 
+    "headerRowCount": "1", 
+    "lineTerminators": [
+      "\\n"
+    ], 
+    "quoteChar": "", 
+    "skipBlankRows": false, 
+    "skipColumns": 0, 
+    "skipInitialSpace": false, 
+    "skipRows": "", 
+    "trim": false
+  }, 
+  "tableSchema": {
+    "columns": [
+      {
+        "datatype": "string", 
+        "dc:description": "unidade da federacao", 
+        "name": "UF", 
+        "required": true, 
+        "titles": "uf"
+      }, 
+      {
+        "datatype": "decimal", 
+        "name": "a2006"
+      }, 
+      {
+        "datatype": "decimal", 
+        "name": "a2007"
+      }, 
+      {
+        "datatype": "decimal", 
+        "name": "a2008"
+      }
+    ], 
+    "primaryKey": [
+      "UF"
+    ]
+  }, 
+  "url": "https://raw.githubusercontent.com/cmartins99/datasets/fcb9132f05cad38cebc178fbe20f4f83f49b08cf/dengue-UF-2006-2008.csv"
+}
+
+
